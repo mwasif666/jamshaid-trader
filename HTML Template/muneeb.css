@@ -1,0 +1,9 @@
+#cards-sec{
+    display: flex;
+    justify-content: space-around;
+}
+.main-card{
+    width: 250px;
+    height: 350px;
+    border: 2px solid black;
+}
