@@ -320,6 +320,7 @@ input[type="radio"] {
     max-width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
+    padding-top: 80px;
   }
 }
 
@@ -9013,7 +9014,7 @@ blockquote:after {
   margin-bottom: 18px;
 }
 .work-box-item span{
-  padding: 0 50px;
+  padding: 0px 15px;
 }
 .work-box-inner-item{
   width: 320px;
@@ -9627,4 +9628,122 @@ border-radius: 50%;
 }
 .logo img{
   width: 266px;
+}
+.slider-images .image {
+  border-bottom-left-radius: 126px;
+  width: 700px;
+}
+
+/* filter */
+.how-pos4-parent,
+.how-pos3-parent,
+.how-pos2-parent,
+.how-pos1-parent {
+  position: relative;
+  z-index: 1;
+}
+
+.how-pos1 {
+  position: absolute;
+  z-index: -1;
+  top: 20px;
+  left: 50%;
+  -webkit-transform: translate(-50%, -58%);
+  -moz-transform: translate(-50%, -58%);
+  -ms-transform: translate(-50%, -58%);
+  -o-transform: translate(-50%, -58%);
+  transform: translate(-50%, -58%);
+}
+.txt-l-101 {
+  font-family: Lato-Black;
+  font-size: 42px;
+  line-height: 1.2;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.txt-m-201 {
+  font-family: PlayfairDisplay-Italic;
+  font-size: 20px;
+  line-height: 1.3;
+  letter-spacing: 1px;
+}
+.how-active1 {
+  color: #333;
+}
+
+.txt-m-104 {
+  font-family: Lato-Regular;
+  font-size: 18px;
+  line-height: 1.2;
+}
+.bocl12 {
+  border-color: #f1ede0;
+}
+.wrap-pic-w > img {
+  width: 100%;
+  display: inline-block;
+  height: 320px;
+  object-fit: cover;
+}
+.block1-content {
+  position: absolute;
+  width: 100%;
+  bottom: 70px;
+  left: 100px;
+}
+.txt-m-103 {
+  font-family: Lato-Bold;
+  font-size: 18px;
+  line-height: 1.2;
+}
+.block1-wrap-icon {
+  position: absolute;
+  width: 100%;
+  bottom: 26px;
+  left: 0;
+  opacity: 0;
+  transform: scale(0);
+}
+.block1-icon {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  overflow: hidden;
+  background-color: #81b03f;
+  margin: 0 5px;
+  opacity: 0.51;
+  -moz-transition: opacity 0.4s;
+  transition: opacity 0.4s;
+}
+.wrap-pic-max-w > img {
+  max-width: 100%;
+  display: inline-block;
+}
+.cl10 {
+  color: #81b03f;
+}
+.size-a-1 {
+  min-width: 90px;
+  min-height: 70px;
+}
+.flex-w.flex-c-m.filter-tope-group {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding-bottom: 30px;
+}
+.filter-tope-group button{
+  padding: 05px 20px;
+  border-radius: 05px;
+}
+.respon1{
+  padding-top: 20px;
+}
+.block1 {
+  height: 340px;
+  overflow: hidden;
+}
+.sec-product.bg0.p-t-145.p-b-25 {
+  height: fit-content;
+  padding-bottom: 50px;
 }
